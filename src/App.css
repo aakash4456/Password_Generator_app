@@ -1,0 +1,25 @@
+#baar {
+    
+    appearance: none; 
+    /* width: 100%;  */
+    height: 6px; /* Thickness of the track */
+    background: #510a36; /* Bar color */
+    border-radius: 5px; /* Rounded track */
+    
+}
+
+.cursor {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(123, 137, 156, 0.2); /* Very light red */
+    border-radius: 50%;
+    position: relative;
+    top: -150px;
+    left: -150px;
+    pointer-events: none;
+    z-index: 9999;
+    filter: blur(30px); /* Adds a soft blur effect */
+    opacity: 0.3; /* Makes it more subtle */
+    transition: transform 0.01s ease;
+    box-shadow: 50px 50px 50px rgba(114, 112, 162, 0.4); /* Glowing effect */
+}
